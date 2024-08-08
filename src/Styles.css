@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+body{
+    background-color:#23252C ;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App{
+    height:fit-content;
+    background-color: #1A1B21;
+    border-radius: 10px ;
+    width: 317px;
+    box-shadow: 3px 5px 10px rgb(81, 81, 90);
+}
+
+/**********************************info section ***********************************/
+
+.info--picture{
+    border-radius: 10px 10px 0px 0px;
+    object-fit: cover;
+    width: 100%;
+    height: 317px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name,.job,.Website{
+    color: whitesmoke;
+    margin: 0;
+}
+
+.name{
+    padding-top: 15px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.job{
+    font-size: 12.8px;
+    font-weight: 200;
+    color: #F3BF99;
+    padding: 0px;
+}
+
+.Website{
+    padding-top: 5px;
+    font-size: 10.25px;
+    font-weight: 200;
+}
+
+.socials{
+    padding: 20px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Resume {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0% 5%;
+    padding: 10px 0px;
+    width: 115px;
+    background-color: #ffffff;
+    color: #161619;
+    border-style: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 700;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-decoration: none;
+}
+.Resume>p{
+    margin: 0px;
+    margin-left: 6px;
+}
+.Resume:hover{
+    background-color: #23252C;
+    color: #DCDCDC;
+}
+.cv {
+    padding: 0px;
+    margin: 0px;
+    fill: #000;
+}
+
+.Resume:hover .cv{
+    fill: #DCDCDC;
+}
+
+
+.LinkedIn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0% 5%;
+    padding: 10px 2px;
+    width: 115px;
+    background-color: #5093E2;
+    color: #ffffff;
+    border-style: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.LinkedIn>p {
+    margin: 0px;
+    margin-left: 10px;
+}
+.LinkedIn:hover {
+    background-color: #23252C;
+}
+/******************************* About Section **************************/
+
+.about{
+ padding: 0px 32px;
+}
+
+.About--title{
+    color: #F5F5F5;
+    font-size: 1rem;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+.About--text{
+    margin: 0px;
+    color: #DCDCDC;
+    font-size: 10.24px;
+}
+
+/****************************** Intrests Section **************************/
+
+.intrests{
+    padding: 32px 32px;
+}
+
+/****************************** Footer Section ****************************/
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 70px 20px 70px;
+    background-color: #161619;
+    border-radius: 0px 0px 10px 10px ;
+}
+.footer>a>img{
+    border-radius: 3px;
+    padding: 0.3px;
+}
+.footer>a>img:hover{
+     transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: #ffffff;
+}
