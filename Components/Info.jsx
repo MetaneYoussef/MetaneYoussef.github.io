@@ -16,6 +16,10 @@ export default function Info() {
                     <img src="/images/LinkedIn.svg" alt="mail" />
                     <p>LinkedIn</p>
                 </a>
+                <a href="https://metaneyoussef.github.io/blog/" className="blog">
+                    <img src="/images/blog.png" alt="blog" className="blogimg" />
+                    <p>Blog</p>
+                </a>
             </div>
         </div>
     )

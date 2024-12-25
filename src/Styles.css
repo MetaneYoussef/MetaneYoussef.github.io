@@ -14,7 +14,7 @@ body{
     height:fit-content;
     background-color: #1A1B21;
     border-radius: 10px ;
-    width: 317px;
+    width: 350px;
     box-shadow: 3px 5px 10px rgb(81, 81, 90);
 }
 
@@ -63,6 +63,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+
+
 }
 
 .Resume {
@@ -70,9 +72,9 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin: 0% 5%;
+    margin: 0% 3%;
     padding: 10px 0px;
-    width: 115px;
+    width: 125px;
     background-color: #ffffff;
     color: #161619;
     border-style: none;
@@ -106,9 +108,9 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin: 0% 5%;
+    margin: 0% 2%;
     padding: 10px 2px;
-    width: 115px;
+    width: 125px;
     background-color: #5093E2;
     color: #ffffff;
     border-style: none;
@@ -120,10 +122,50 @@ body{
 }
 .LinkedIn>p {
     margin: 0px;
-    margin-left: 10px;
+    margin-left: 8px;
 }
 .LinkedIn:hover {
     background-color: #23252C;
+}
+
+
+.blogimg{
+    height: 18px;
+    width: 20px;
+    object-fit: cover;
+    transition: filter 0.3s ease, color 0.3s ease;
+}
+
+.blog{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0% 3%;
+    padding: 9.5px 2px;
+    width: 125px;
+    background-color: #50e283;
+    color: #000000;
+    border-style: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.blog>p {
+    margin: 0px;
+    margin-left: 10px;
+}
+.blog:hover{
+    background-color: #23252C;
+    color: #ffffff;
+}
+
+.blog:hover .blogimg {
+    /* set the color of the image to white */
+    filter: invert(1);
 }
 /******************************* About Section **************************/
 
@@ -156,7 +198,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px 70px 20px 70px;
+    padding: 10px 70px 10px 70px;
     background-color: #161619;
     border-radius: 0px 0px 10px 10px ;
 }
@@ -165,6 +207,6 @@ body{
     padding: 0.3px;
 }
 .footer>a>img:hover{
-     transition: background-color 0.3s ease, color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease;
     background-color: #ffffff;
 }
