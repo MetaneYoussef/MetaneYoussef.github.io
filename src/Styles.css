@@ -115,14 +115,14 @@ body{
     color: #ffffff;
     border-style: none;
     border-radius: 6px;
-    font-size: 14px;
+    font-size: 13.5px;
     font-weight: 700;
     text-decoration: none;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 .LinkedIn>p {
     margin: 0px;
-    margin-left: 8px;
+    margin-left: 5px;
 }
 .LinkedIn:hover {
     background-color: #23252C;
