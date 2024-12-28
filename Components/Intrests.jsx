@@ -3,7 +3,7 @@ export default function Intrests() {
         <div className="intrests">
             <h3 className="About--title"> Intrests </h3>
             <p className="About--text">
-            <ul>
+            <ul style="list-style-position: inside; padding-left: 5px;">
                 <li>🛡️ <strong>Cybersécurité :</strong> Découvrir les vulnérabilités, les corriger, et améliorer les systèmes existants.</li>
                 <li>🤖 <strong>Intelligence Artificielle :</strong> Appliquer le deep learning à des problématiques de sécurité complexes.</li>
                 <li>💻 <strong>Développement Web :</strong> Créer des applications sécurisées et performantes.</li>
