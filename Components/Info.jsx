@@ -10,7 +10,7 @@ export default function Info() {
                 <a className="Resume" href="https://rxresu.me/mtn.youssef.kh/metaneyousseffr">
                     {/* <img src="../images/cv.svg" alt="mail" className="cv" /> */}
                     <i className="fa fa-file cv"></i>
-                    <p>Resume</p>
+                    <p>CV</p>
                 </a>
                 <a className="LinkedIn" href="https://www.linkedin.com/in/youcef-metane/">
                     <img src="/images/LinkedIn.svg" alt="mail" />

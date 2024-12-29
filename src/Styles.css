@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    font-family: "Inter", sans-serif;
+    font-family: "JetBrains Mono", sans-serif;
 }
 body{
     background-color:#23252C ;
@@ -12,11 +12,11 @@ body{
 
 .App{
     height:fit-content;
-    background-color: #1A1B21;
+    background-color: #000000;
     border-radius: 10px ;
-    min-width: 325px;
     max-width: 450px;
-    width: 400px;
+    min-width: 300px;
+    margin: 10px;
     box-shadow: 3px 5px 10px rgb(81, 81, 90);
 }
 
@@ -41,6 +41,7 @@ body{
 }
 
 .name{
+    color: #00ff00;
     padding-top: 15px;
     font-size: 25px;
     font-weight: 600;
@@ -49,7 +50,7 @@ body{
 .job{
     font-size: 12.8px;
     font-weight: 200;
-    color: #F3BF99;
+    color: #ffff33;
     padding: 0px;
 }
 
@@ -76,7 +77,9 @@ body{
     justify-content: center;
     margin: 0% 3%;
     padding: 10px 0px;
-    width: 125px;
+    min-width: 70px;
+    max-width: 125px;
+    width: 100px;
     background-color: #ffffff;
     color: #161619;
     border-style: none;
@@ -112,7 +115,9 @@ body{
     justify-content: center;
     margin: 0% 2%;
     padding: 10px 2px;
-    width: 125px;
+    min-width: 100px;
+    max-width: 125px;
+    width: 100px;
     background-color: #5093E2;
     color: #ffffff;
     border-style: none;
@@ -137,6 +142,9 @@ body{
     object-fit: cover;
     transition: filter 0.3s ease, color 0.3s ease;
 }
+.blogname{
+    color: #ffff33;
+}
 
 .blog{
     display: flex;
@@ -145,7 +153,9 @@ body{
     justify-content: center;
     margin: 0% 3%;
     padding: 9.5px 2px;
-    width: 125px;
+    min-width: 100px;
+    max-width: 125px;
+    width: 100px;
     background-color: #50e283;
     color: #000000;
     border-style: none;
@@ -176,7 +186,7 @@ body{
 }
 
 .About--title{
-    color: #F5F5F5;
+    color: #00ff00;
     font-size: 1rem;
     margin: 0px;
     margin-bottom: 5px;
@@ -185,9 +195,28 @@ body{
 .About--text{
     margin: 0px;
     color: #DCDCDC;
-    font-size: 10.24px;
+    font-size: 12px;
+    text-align: justify;
+}
+.Intrests--text {
+    margin: 0px;
+    color: #DCDCDC;
+    font-size: 12px;
+}
+.About--list{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    font-size: 12px;
+    list-style-position: inside; 
+    padding-left: 5px;
 }
 
+.list--title{
+    color: #00ff00;
+    margin: 0px;
+    margin-bottom: 5px;
+}
 /****************************** Intrests Section **************************/
 
 .intrests{
